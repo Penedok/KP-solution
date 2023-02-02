@@ -1,0 +1,10 @@
+:root{
+    --font-familia-corpo:'Roboto', sans-serif;;
+    --font-sizy: 18px;
+	--font-cor-azul:#0C8CE9;
+	--font-cor-branco:#F3F9FD; 
+	--font-cor-azul-claro:#24BABC;
+    --cor-sombra: 0 5px 10px #0C8CE9;
+    --cor-secundaria: #d6eaff;
+
+}

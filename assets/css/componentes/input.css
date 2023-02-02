@@ -1,0 +1,39 @@
+
+.input-cabecalho{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ box-sizing: border-box;
+ color: #002544;
+ font-family: var(--font-familia-corpo);
+
+}
+.input-cabecalho__titulo{ 
+    text-align: center;
+    padding: 1em;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+   padding: 1.5em 0 0 0;
+    margin: 0.5em;
+}
+.input-label{
+display: inline-block;   
+padding-bottom: 0.9em;
+font-family: var(--font-familia-corpo);
+color: #002544;
+font-size: 22px;
+
+}
+.input{
+    border: transparent;
+   
+    padding:  0.5em 2em;
+    font-style: italic;
+    background-color: var(--cor-secundaria);
+}
+.input:focus {
+    overflow: none;
+}

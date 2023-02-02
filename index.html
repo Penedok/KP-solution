@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="stylesheet" href="./assets/css/base/reset.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href ="./assets/css/componentes/input.css">
+    <link rel="stylesheet" href="./assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+
+</head>
+<body>
+    <main class="container flex container--centro input--coluna">
+        <div class="login-imagem">
+            <img src="./assets/css/imagens/logo.jpeg" alt="Logo Varejo Soluções" class="imagem-logo">
+        </div>
+        <section class="cartao">
+           <fieldset>
+                <div class="input-cabecalho">
+                    <h1 class="cabecalho__titulo">Login</h1>
+                    <div class="input-container">
+                        <label class="input-label" for="email"  id="email" >Email:</label>
+                        <input name="email" id="login" class="input" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label" for="password">Senha:</label>
+                        <input name="password" id="senha" class="input" type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="botao">
+                        <button type="submit" class="botao-entrar" onclick="logar(); return false">Entrar</button>
+                    </div>
+                </div>
+          </fieldset>  
+        </section>
+    </main>
+
+    <script src="./validacao-login.js"></script>
+    
+</body>
+</html>
